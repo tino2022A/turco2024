@@ -1,0 +1,50 @@
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+  <title>TeLaSe</title>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-9">
+<META HTTP-EQUIV="Content-language" CONTENT="tr">
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Video Player</title>
+      <!-- Favicon Icon -->
+      <link rel="icon" type="image/ico" href="img/favicon.ico">
+  <link rel='stylesheet' href="./css/style.css">
+<script type="text/javascript" charset="UTF-8"></script></head>
+  <body>
+        <div align="center"><h1>Video Player</h1></div>
+        <select id="videoselection" onchange="myFunction()">
+        <option value="">Dropdown to select.</option>
+                <option value="https://tv-trt1.medya.trt.com.tr/master.m3u8">TRT 1</option>
+<option value="https://tv-trt2.live.trt.com.tr/master.m3u8">TRT 2</option>
+<option value="https://tv-trtbelgesel.live.trt.com.tr/master.m3u8">TRT Belgesel</option>
+<option value="https://tv-trthaber.live.trt.com.tr/master.m3u8">TRT Haber</option>
+<option value="https://tv-trtspor1.medya.trt.com.tr/master.m3u8">TRT Spor 1</option>
+<option value="https://tv-trtspor2.live.trt.com.tr/master.m3u8">TRT Spor 2</option>
+<option value="https://tv-trtmuzik.medya.trt.com.tr/master.m3u8">TRT Muzik</option>
+<option value="https://tv-trtcocuk.live.trt.com.tr/master.m3u8">TRT Çocuk</option>
+<option value="https://tv-trtturk.live.trt.com.tr/master.m3u8">TRT Turk</option>
+<option value="https://tv-trtavaz.medya.trt.com.tr/master.m3u8">TRT Avaz</option>
+<option value="https://tv-trtkurdi.live.trt.com.tr/master.m3u8">TRT Kurdi</option>
+<option value="https://tv-trtarabi.live.trt.com.tr/master.m3u8">TRT Arabia</option>
+<option value="https://tv-trtworld.live.trt.com.tr/master.m3u8">TRT World</option>
+<option value="https://tv-e-okul00.live.trt.com.tr/master.m3u8">TRT Okul 100</option>
+<option value="https://tv-e-okul01.live.trt.com.tr/master.m3u8">TRT Okul 101</option>
+<option value="https://tv-e-okul02.live.trt.com.tr/master.m3u8">TRT Okul 102</option>
+<option value="https://tv-e-okul03.live.trt.com.tr/master.m3u8">TRT Okul 103</option>
+<option value="https://tv-e-okul04.live.trt.com.tr/master.m3u8">TRT Okul 104</option>
+<option value="https://tv-e-okul05.live.trt.com.tr/master.m3u8">TRT Okul 105</option>
+                </select>
+<p> </p>
+Enter a video link:
+<div style="text-align: justify;"><input name="textbox" id="textbox"
+type="text"> <input name="buttonExecute" onclick="myFunction1()"
+value="Play" type="button">&nbsp;
+        <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+        <div align="center"><video id="video" width="853" height="480" controls autoplay"></video></div>
+	    <script src="./js/player.js"></script>
+   </body>
+</html>
+</body>
+</html>
